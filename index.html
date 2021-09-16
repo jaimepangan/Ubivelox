@@ -10,11 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="./script.js" async></script>
 </head>
 <body>
 
     <!-- NAVIGATION BAR -->
     <nav class="nav-main">
+        <!-- MOBILE NAVIGATION BAR -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="nav-bars"></div>
+            <div class="nav-bars"></div>
+            <div class="nav-bars"></div>
+        </div>
+
+        <!-- WEBSITE NAV BAR -->
         <div class="nav-left">
             <img src="./Resources/Logo.svg" alt="logo">
         </div>
@@ -28,6 +37,21 @@
             </ul>
         </div>
     </nav>
+
+    <!-- MOBILE NAV LIST -->
+    <div class="mobile-nav-list" id="mobileNavList">
+        <ul>
+            <li id="about-li" class="mobile-about">About</li>
+            <div class="mobile-br"></div>
+            <li id="clients-li" class="mobile-clients">Clients</li>
+            <div class="mobile-br"></div>
+            <li id="catalog-li" class="mobile-catalog">Catalog</li>
+            <div class="mobile-br"></div>
+            <li id="contact-li" class="mobile-contact">Contact Us</li>
+            <div class="mobile-br"></div>
+            <li id="quote-li" class="mobile-quote">Get a Quote</li>
+        </ul>
+    </div>
 
     <!-- PAGE ONE HOME -->
     <div class="header-container" id="page-one">
@@ -46,8 +70,14 @@
                 </div>
                 <div class="buttons">
                     <ul class="buttons-list">
-                        <li class="li-one"><a href="" class="button-book">Book a consultation <i class="fas fa-arrow-right"></i></a></li>
-                        <li class="li-two"><a href="" class="button-quote">Get a quote <i class="fas fa-arrow-right"></i></a></li>
+                        <li class="li-one"><a href="" class="button-book">Book a consultation<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.2334 1.09375C5.9209 1.40625 5.95215 1.875 6.2334 2.1875L10.0146 5.75H1.0459C0.608398 5.75 0.295898 6.09375 0.295898 6.5V7.5C0.295898 7.9375 0.608398 8.25 1.0459 8.25H10.0146L6.2334 11.8438C5.95215 12.1562 5.95215 12.625 6.2334 12.9375L6.9209 13.625C7.2334 13.9062 7.70215 13.9062 7.9834 13.625L14.0771 7.53125C14.3584 7.25 14.3584 6.78125 14.0771 6.46875L7.9834 0.40625C7.70215 0.125 7.2334 0.125 6.9209 0.40625L6.2334 1.09375Z" fill="white"/>
+                            </svg>
+                            </a></li>
+                        <li class="li-two"><a href="" class="button-quote">Get a quote <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.2334 1.09375C5.9209 1.40625 5.95215 1.875 6.2334 2.1875L10.0146 5.75H1.0459C0.608398 5.75 0.295898 6.09375 0.295898 6.5V7.5C0.295898 7.9375 0.608398 8.25 1.0459 8.25H10.0146L6.2334 11.8438C5.95215 12.1562 5.95215 12.625 6.2334 12.9375L6.9209 13.625C7.2334 13.9062 7.70215 13.9062 7.9834 13.625L14.0771 7.53125C14.3584 7.25 14.3584 6.78125 14.0771 6.46875L7.9834 0.40625C7.70215 0.125 7.2334 0.125 6.9209 0.40625L6.2334 1.09375Z" fill="#FFAD28"/>
+                            </svg>
+                            </a></li>
                     </ul>
                 </div> 
             </div>
