@@ -14,7 +14,7 @@
 
 .section-cards {
     position: relative;
-    bottom: 170px;
+    bottom: 160px;
 }
 
 .smart-printing-card {
@@ -160,6 +160,17 @@
     }
 }
 
+@media only screen and (max-height: 480px) {
+    .card-details h3 {
+        font-size: 1.3rem;
+    }
+    
+    .card-details p {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .card-details h3 {
         font-size: 1.25rem;
@@ -189,9 +200,146 @@
 
 .card-icon img {
     width: 90%;
+    max-width: 45px;
     min-width: 20px;
     height: auto;
 }
 
 /* SERVICES
   ==================================== */
+
+  .services-section {
+      padding: 70px 230px;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      background-color: #F5F9FC;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .services-section {
+        padding: 70px 170px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .services-section {
+        padding: 70px 120px;
+    }
+  }
+
+  @media only screen and (max-width: 690px) {
+    .services-section {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+  }
+
+  .service-div {
+    flex-basis: 23%;
+    max-height: 200px;
+    min-width: 127px;
+  }
+
+  @media only screen and (max-width: 690px) {
+    .service-div {
+        margin: 10px;
+      }
+  }
+
+  .icon-header {
+      margin: 5px 0px;
+  }
+
+  .icon-header img {
+      width: 29.1%;
+      max-width: 60px;
+      height: auto;
+  }
+
+  .icon-header h3 {
+      font-family: 'Darker Grotesque', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #304659;
+  }
+
+  .desc-btn p {
+      margin: 3px 0px;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #3B5266;
+      vertical-align: middle;
+  }
+
+  .desc-btn a {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #0C4DA2;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .icon-header h3 {
+        font-size: 17px;
+    }
+  
+    .desc-btn p {
+        font-size: 13px;
+    }
+  
+    .desc-btn a {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .icon-header h3 {
+        font-size: 15px;
+    }
+  
+    .desc-btn p {
+        font-size: 11px;
+    }
+  
+    .desc-btn a {
+      font-size: 12px;
+    }
+  }
+
+  .desc-btn img {
+      position: relative;
+      width: 13px;
+      height: auto;
+      top: 2.5px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .icon-header h3 {
+        font-size: 14px;
+    }
+  
+    .desc-btn p {
+        font-size: 10px;
+    }
+  
+    .desc-btn a {
+      font-size: 11px;
+    }
+  }
+
+  .desc-btn img {
+      position: relative;
+      width: 5.5%;
+      height: auto;
+      top: 1.5px;
+      margin-left: 4px;
+  }
+
+  .button-desc {
+      display: flex;
+      align-items: center;
+  }
