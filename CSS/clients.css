@@ -1,0 +1,143 @@
+.our-customers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 20px 35px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .our-customers {
+        padding: 50px 20px 35px;
+    }
+}
+
+.our-customers h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #304659;
+    margin-bottom: 15px;
+}
+
+.our-customers p {
+    width: 33%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #3B5266;
+}
+
+@media only screen and (max-width: 1150px) {
+    .our-customers h2 {
+        font-size: 2.5rem;
+    }
+    
+    .our-customers p {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .our-customers h2 {
+        font-size: 2.2rem;
+    }
+    
+    .our-customers p {
+        font-size: .6rem;
+        width: 38%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .our-customers h2 {
+        font-size: 1.8rem;
+    }
+    
+    .our-customers p {
+        font-size: .6rem;
+        width: 60%;
+    }
+}
+
+.clients-logos {
+    padding: 0px 89px 43px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 760px) {
+    .clients-logos {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        justify-content: left;
+        padding: 0px 5px 43px;
+    } 
+}
+
+.logos {
+    margin: 30px 40px;
+}
+
+.pagcor-logo {
+    width: 7.9%;
+    height: auto;
+    min-width: 50px;
+}
+
+.bdo-logo {
+    width: 10.5%;
+    height: auto;
+    min-width: 50px;
+}
+
+.fisher-logo {
+    width: 12.1%;
+    height: auto;
+    min-width: 70px;
+}
+
+.pvb-logo {
+    width: 9.9%;
+    height: auto;
+    min-width: 50px;
+}
+
+.ussc-logo {
+    width: 14.9%;
+    height: auto;
+    min-width: 50px;
+}
+
+.laybare-logo {
+    width: 8.1%;
+    height: auto;
+    min-width: 50px;
+}
+
+.ucpb-logo {
+    width: 10.1%;
+    height: auto;
+    min-width: 50px;
+}
+
+.mercury-logo {
+    width: 24%;
+    height: auto;
+    min-width: 80px;
+}
+
+.sm-logo {
+    width: 8.4%;
+    height: auto;
+    min-width: 50px;
+}
+
+.puregold-logo {
+    width: 10.9%;
+    height: auto;
+    min-width: 70px;
+}
