@@ -62,7 +62,7 @@
 }
 
 .clients-logos {
-    padding: 0px 89px 43px;
+    padding: 0px 89px 3px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -86,58 +86,115 @@
     width: 7.9%;
     height: auto;
     min-width: 50px;
+    max-width: 110px;
 }
 
 .bdo-logo {
     width: 10.5%;
     height: auto;
     min-width: 50px;
+    max-width: 140px;
 }
 
 .fisher-logo {
     width: 12.1%;
     height: auto;
     min-width: 70px;
+    max-width: 160px;
 }
 
 .pvb-logo {
     width: 9.9%;
     height: auto;
     min-width: 50px;
+    max-width: 135px;
 }
 
 .ussc-logo {
     width: 14.9%;
     height: auto;
     min-width: 50px;
+    max-width: 195px;
 }
 
 .laybare-logo {
     width: 8.1%;
     height: auto;
     min-width: 50px;
+    max-width: 110px;
 }
 
 .ucpb-logo {
     width: 10.1%;
     height: auto;
     min-width: 50px;
+    max-width: 135px;
 }
 
 .mercury-logo {
     width: 24%;
     height: auto;
     min-width: 80px;
+    max-width: 310px;
 }
 
 .sm-logo {
     width: 8.4%;
     height: auto;
     min-width: 50px;
+    max-width: 115px;
 }
 
 .puregold-logo {
     width: 10.9%;
     height: auto;
     min-width: 70px;
+    max-width: 145px;
+}
+
+.clients-button-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.clients-button-desc a {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #014098;
+}
+
+@media only screen and (max-width: 1200px) {
+    .clients-button-desc a {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .clients-button-desc a {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .clients-button-desc a {
+        font-size: .8rem;
+    }
+}
+
+.clients-button-desc a:visited {
+    text-decoration: none;
+    color: #014098;
+}
+
+.clients-button-desc img {
+    position: relative;
+    width: 1%;
+    min-width: 7px;
+    height: auto;
+    top: 2.5px;
+    margin-left: 8px;
 }
