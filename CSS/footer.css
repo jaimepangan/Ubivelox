@@ -1,0 +1,300 @@
+.partner-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAD28;
+
+    padding: 32px 0px;
+}
+
+
+.partner-header {
+    width: 30%;
+    margin-right: 100px;
+}
+
+.partner-header h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #014098;
+}
+
+.partner-header p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #014098;
+}
+
+.partner-btn {
+    display: flex;
+    width: 30%;
+}
+
+.partner-consultation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #014098;
+    border-radius: 2000px;
+
+    padding: 7px 12px;
+    margin: 0px 20px;
+    flex: 6;
+}
+
+.partner-consultation a {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.partner-consultation img {
+    position: relative;
+    width: 6%;
+    height: auto;
+    top: 1.5px;
+    margin-left: 2%; 
+}
+
+.partner-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #014098;
+    border-radius: 2000px;
+
+    padding: 7px 15px;
+    flex: 4;
+}
+
+.partner-quote img {
+    position: relative;
+    width: 9%;
+    height: auto;
+    top: 1.5px;
+    margin-left: 3%; 
+}
+
+.partner-quote a {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #014098;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .partner-header h3 {
+        font-size: 2.3rem;
+    }
+
+    .partner-header p {
+        font-size: .9rem;
+    }
+
+    .partner-consultation a {
+        font-size: 1.3rem;
+    }
+
+    .partner-quote a {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+
+    .partner-header h3 {
+        font-size: 2.1rem;
+    }
+
+    .partner-header p {
+        font-size: .7rem;
+    }
+
+    .partner-consultation a {
+        font-size: 1rem;
+    }
+
+    .partner-quote a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .partner-header h3 {
+        font-size: 1.9rem;
+    }
+
+    .partner-header p {
+        font-size: .6rem;
+    }
+
+    .partner-consultation a {
+        font-size: .8rem;
+    }
+
+    .partner-quote a {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .partner-header h3 {
+        font-size: 1.7rem;
+    }
+
+    .partner-header p {
+        font-size: .6rem;
+    }
+
+    .partner-consultation a {
+        font-size: .7rem;
+    }
+
+    .partner-quote a {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .partner-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .partner-header p {
+        font-size: .6rem;
+    }
+
+    /* .partner-consultation a {
+        font-size: .6rem;
+    }
+
+    .partner-quote a {
+        font-size: .6rem;
+    } */
+
+    .partner-btn {
+        width: 34%;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .partner-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .partner-header p {
+        font-size: .6rem;
+    }
+
+    .partner-consultation a {
+        font-size: .6rem;
+    }
+
+    .partner-quote a {
+        font-size: .6rem;
+    }
+
+    .partner-btn {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .partner-us {
+        flex-direction: column;
+    }
+
+    .partner-header {
+        width: 40%;
+    }
+
+    .partner-btn {
+        width: 58%;
+    }
+
+    .partner-consultation {
+        padding: 5px 5px;
+    }
+
+    .partner-quote {
+        padding: 5px 5px;
+    }
+    
+
+    .partner-header {
+        width: 50%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .partner-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .partner-header p {
+        font-size: .6rem;
+    }
+
+    .partner-consultation a {
+        font-size: .7rem;
+    }
+
+    .partner-quote a {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .partner-us {
+        flex-direction: column;
+    }
+
+    .partner-consultation {
+        padding: 5px 5px;
+    }
+
+    .partner-quote {
+        padding: 5px 5px;
+    }
+    
+
+    .partner-header {
+        width: 50%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .partner-header h3 {
+        font-size: 1.3rem;
+    }
+
+    .partner-header p {
+        font-size: .5rem;
+    }
+
+    .partner-consultation a {
+        font-size: .6rem;
+    }
+
+    .partner-quote a {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .partner-btn {
+        width: 65%;
+    }
+}

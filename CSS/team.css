@@ -4,7 +4,7 @@
 }
 
 .team-cards {
-    padding: 45px 0px;
+    padding: 45px 0px 25px;
     margin: 0 10%;
     filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.1));
 
@@ -93,10 +93,14 @@
 .team-card-details {
     background: #FFFFFF;
     flex: 1;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .team-card-header {
     margin: 20px 20px 5px;
+    flex: 1;
 }
 
 .team-card-header span {
@@ -112,6 +116,8 @@
 }
 
 .card-quote {
+    flex: 1;
+
     font-family: 'Darker Grotesque', sans-serif;
     font-style: italic;
     color: #3B5266;
@@ -120,6 +126,7 @@
 }
 
 .team-card-btn {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -232,3 +239,114 @@
     }
 
 }
+
+/* VIEW OPENINGS SECTION */
+
+.team-openings {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 45px;
+}
+
+.team-openings h3 {
+    margin: 0px 5%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.8rem;
+    color: #3D71B5;
+}
+
+.team-openings .view-openings {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    min-width: 72px;
+}
+
+.view-openings a {
+    text-decoration: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #014098;
+}
+
+.view-openings img {
+    position: relative;
+    width: 6%;
+    height: auto;
+    top: 2.5px;
+    margin-left: 5%; 
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-openings h3 {
+        font-size: 1.6rem;
+    }
+
+    .view-openings a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .team-openings h3 {
+        font-size: 1.4rem;
+    }
+
+    .view-openings a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .team-openings h3 {
+        font-size: 1.2rem;
+    }
+
+    .view-openings a {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .team-openings h3 {
+        font-size: 1rem;
+    }
+
+    .view-openings a {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .team-openings {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .team-openings h3 {
+        font-size: .9rem;
+    }
+
+    .view-openings a {
+        font-size: .6rem;
+    }
+
+    .team-openings .view-openings {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .team-openings h3 {
+        font-size: .8rem;
+    }
+
+    .view-openings a {
+        font-size: .5rem;
+    }
+}
+
